@@ -23,7 +23,9 @@ function App() {
       <a href={gitHubURL}>
         <button>GitHub Page</button>
       </a>
-      <img src={gitHubImageURL} alt="Github profile image" />
+      <div>
+        <img src={gitHubImageURL} alt="Github profile image" />
+      </div>
     </div>
   );
 }
